@@ -1,349 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="description" content="Ume Taqadus — Final-year Computer Science student specializing in AI, Machine Learning, Generative AI, and Full-Stack Development. Experience in RAG, LLMs, NLP, and computer vision." />
-
-  <meta name="keywords" content="AI, Machine Learning, Portfolio, Python, LLM, RAG, Computer Vision, Developer" />
-
+  <meta name="description" content="Ume Taqadus — AI/ML Engineer and final-year Computer Science student specializing in Generative AI, LLMs, RAG systems, AI Agents, NLP, and Computer Vision." />
+  <meta name="keywords" content="Ume Taqadus, AI Engineer, Machine Learning Engineer, Generative AI, LLM, RAG, NLP, Computer Vision, Python, FAST NUCES" />
   <meta name="author" content="Ume Taqadus" />
 
-  <title>Ume Taqadus | Portfolio</title>
+  <title>Ume Taqadus | AI/ML Engineer Portfolio</title>
 
-  <!-- Boxicons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-  <!-- ================= HEADER ================= -->
-  <header class="header">
+<header class="header">
+  <a href="#home" class="logo">Ume<span>.</span>Taqadus</a>
+  <i class="bx bx-menu" id="menu-icon" aria-label="Open menu"></i>
 
-    <a href="#home" class="logo">Ume Taqadus</a>
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-    <i class="bx bx-menu" id="menu-icon" aria-label="Menu"></i>
+<!-- ================= HOME ================= -->
+<section class="home" id="home">
+  <div class="home-content">
+    <span class="eyebrow">// currently routing queries at Zeppelin Labs</span>
+    <h1>Ume Taqadus</h1>
+    <h2>an <span class="multiple-text"></span></h2>
+    <p>
+      Final-year Computer Science student specializing in Artificial Intelligence,
+      Machine Learning, and Generative AI. I build LLM applications, RAG systems,
+      AI agents, computer vision pipelines, and intelligent automation workflows.
+    </p>
 
-    <nav class="navbar">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-  </header>
-
-  <!-- ================= HOME ================= -->
-  <section class="home" id="home">
-
-    <div class="home-content">
-
-      <h3>Hello, I'm</h3>
-      <h1>Ume Taqadus</h1>
-      <h3>a <span class="multiple-text"></span></h3>
-
-      <p>
-        Final-year Computer Science student building AI systems, LLM applications,
-        RAG pipelines, and full-stack intelligent solutions.
-      </p>
-
-      <div class="social-media">
-        <a href="https://www.linkedin.com/in/umetaqadus/" target="_blank" rel="noopener" aria-label="LinkedIn">
-          <i class="bx bxl-linkedin-square"></i>
-        </a>
-
-        <a href="https://github.com/Taqadus842" target="_blank" rel="noopener" aria-label="GitHub">
-          <i class="bx bxl-github"></i>
-        </a>
-      </div>
-
-      <div class="home-btns">
-        <a href="assets/Ume-Taqadus-CV.pdf" class="btn" download>Download CV</a>
-        <a href="#projects" class="btn btn-outline">View Projects</a>
-      </div>
-
+    <div class="social-media">
+      <a href="https://www.linkedin.com/in/umetaqadus/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bx bxl-linkedin-square"></i></a>
+      <a href="https://github.com/Taqadus842" target="_blank" rel="noopener" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+      <a href="mailto:umetaqadus@gmail.com" aria-label="Email"><i class="bx bx-envelope"></i></a>
     </div>
 
-  </section>
+    <div class="home-btns">
+      <a href="assets/Ume-Taqadus-CV.pdf" class="btn" download>Download CV</a>
+      <a href="#projects" class="btn btn-outline">View Projects</a>
+    </div>
+  </div>
 
-  <!-- ================= ABOUT ================= -->
-  <section class="about" id="about">
+  <div class="home-visual" aria-hidden="true">
+    <svg viewBox="0 0 460 420" class="route-svg">
+      <path class="route-path" d="M70 210 C 150 210, 150 90, 250 90" />
+      <path class="route-path" d="M70 210 C 150 210, 150 210, 250 210" />
+      <path class="route-path" d="M70 210 C 150 210, 150 330, 250 330" />
 
-    <div class="about-content">
+      <circle class="route-pulse" r="4.5">
+        <animateMotion dur="2.6s" repeatCount="indefinite" path="M70 210 C 150 210, 150 90, 250 90" />
+      </circle>
+      <circle class="route-pulse route-pulse--alt" r="4.5">
+        <animateMotion dur="2.6s" begin="0.9s" repeatCount="indefinite" path="M70 210 C 150 210, 150 210, 250 210" />
+      </circle>
+      <circle class="route-pulse route-pulse--alt2" r="4.5">
+        <animateMotion dur="2.6s" begin="1.8s" repeatCount="indefinite" path="M70 210 C 150 210, 150 330, 250 330" />
+      </circle>
 
-      <h2>About <span>Me</span></h2>
+      <g class="route-node route-node--query">
+        <circle cx="70" cy="210" r="34" />
+        <text x="70" y="215" text-anchor="middle">query</text>
+      </g>
 
-      <h3>I'm a <span>Computer Science student</span></h3>
+      <g class="route-node">
+        <circle cx="280" cy="90" r="30" />
+        <text x="280" y="86" text-anchor="middle">local</text>
+        <text x="280" y="100" text-anchor="middle" class="route-node__sub">low latency</text>
+      </g>
+      <g class="route-node">
+        <circle cx="280" cy="210" r="30" />
+        <text x="280" y="206" text-anchor="middle">mid LLM</text>
+        <text x="280" y="220" text-anchor="middle" class="route-node__sub">balanced</text>
+      </g>
+      <g class="route-node">
+        <circle cx="280" cy="330" r="30" />
+        <text x="280" y="326" text-anchor="middle">frontier</text>
+        <text x="280" y="340" text-anchor="middle" class="route-node__sub">high complexity</text>
+      </g>
 
-      <p>
-        Final-year CS student at FAST University (Class of 2026), focused on AI/ML,
-        NLP, LLM fine-tuning, computer vision, and production-level AI systems.
-      </p>
+      <text x="230" y="30" class="route-caption">routed by complexity, cost &amp; latency</text>
+    </svg>
+  </div>
+</section>
 
-      <a href="#contact" class="btn">Get In Touch</a>
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <h3 class="about-role">AI/ML Engineer | Generative AI Developer</h3>
+    <p>
+      I'm a Computer Science undergraduate at FAST National University (Class of 2026)
+      focused on building practical AI systems. My experience spans Retrieval-Augmented
+      Generation (RAG) applications, Large Language Model (LLM) workflows, AI agents,
+      NLP pipelines, computer vision models, and AI automation solutions.
+    </p>
+    <p>
+      Currently, I'm leading an AI engineering team as Team Lead for the AI &amp;
+      Generative AI Summer Fellowship at Zeppelin Labs, where I'm working on lightweight
+      LLM routing systems, AI assistants, and intelligent automation platforms — turning
+      research ideas into scalable, real-world AI products.
+    </p>
 
+    <div class="about-stats">
+      <div><span>5+</span>internships &amp; fellowships</div>
+      <div><span>7</span>AI/ML projects shipped</div>
+      <div><span>2026</span>expected graduation</div>
     </div>
 
-  </section>
+    <a href="#contact" class="btn">Get In Touch</a>
+  </div>
+</section>
 
-  <!-- ================= EXPERIENCE ================= -->
-  <section class="experience" id="experience">
+<!-- ================= EDUCATION ================= -->
+<section class="education" id="education">
+  <h2 class="heading">Edu<span>cation</span></h2>
 
-    <h2 class="heading">My <span>Experience</span></h2>
+  <div class="education-card">
+    <div class="education-card__top">
+      <h3>BS Computer Science</h3>
+      <span class="education-date">2022 &ndash; Present</span>
+    </div>
+    <h4>FAST National University of Computer and Emerging Sciences</h4>
+    <p class="education-coursework">
+      <strong>Relevant coursework:</strong> Artificial Intelligence, Machine Learning,
+      Deep Learning, Natural Language Processing, Computer Vision, Data Science,
+      Data Structures &amp; Algorithms, Database Systems, Software Engineering, Cloud Computing.
+    </p>
+  </div>
 
-    <div class="timeline">
+  <div class="cert-achieve-grid">
+    <div class="cert-box">
+      <h4><i class='bx bx-certification'></i> Certifications</h4>
+      <ul>
+        <li>Claude Code in Action — Anthropic</li>
+        <li>Claude Code 101 — Anthropic</li>
+        <li>Artificial Intelligence — DigiSkills.pk</li>
+        <li>Machine Learning — SAMZ Technologies</li>
+        <li>Microservices with Docker — Udemy</li>
+        <li>Google Carbon Programming</li>
+      </ul>
+    </div>
+    <div class="cert-box">
+      <h4><i class='bx bx-trophy'></i> Achievements</h4>
+      <ul>
+        <li>NSCT 2026: 75.5 percentile (HEC Pakistan national CS/AI benchmark exam)</li>
+        <li>Selected as Team Lead for the AI &amp; Generative AI Summer Fellowship at Zeppelin Labs</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <span class="timeline-date">Jun 2024 – Sep 2024</span>
-          <h3>Front-End Developer Intern</h3>
-          <h4>TechNetCloud</h4>
-          <p>Designed responsive web interfaces using React.js and Bootstrap, and improved UI performance and overall user experience.</p>
-        </div>
+<!-- ================= EXPERIENCE ================= -->
+<section class="experience" id="experience">
+  <h2 class="heading">My <span>Experience</span></h2>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">Jul 2026 &ndash; Present</span>
+        <h3>Team Lead — AI &amp; Generative AI Summer Fellowship</h3>
+        <h4>Zeppelin Labs</h4>
+        <p>
+          Leading an AI engineering team to design and develop Generative AI applications
+          using LLMs, RAG pipelines, AI agents, and automation workflows. Architecting
+          solutions with vector databases and LLM orchestration, applying prompt engineering
+          via LangChain and LlamaIndex, and managing Git-based development, code reviews,
+          and technical mentorship.
+        </p>
       </div>
-
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <span class="timeline-date">Jun 2025 – Aug 2025</span>
-          <h3>AI/ML Intern</h3>
-          <h4>Arch Technologies</h4>
-          <p>Fine-tuned a LLaMA model using PEFT for medical reasoning tasks, and developed a tumor detection pipeline using YOLO and SAM-based models.</p>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <span class="timeline-date">Jul 2025 – Sep 2025</span>
-          <h3>Junior AI/ML Developer</h3>
-          <h4>Code Generation</h4>
-          <p>Developed AI models for code automation and prediction systems, implemented ML workflows using TensorFlow and PyTorch, and built LLM-powered automation features experimenting with RAG pipelines.</p>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <span class="timeline-date">Aug 2025 – Sep 2025</span>
-          <h3>NLP Intern</h3>
-          <h4>Elevvo Pathways</h4>
-          <p>Developed NLP pipelines for text classification and entity extraction, fine-tuned transformer-based models for domain-specific applications, and worked with Generative AI workflows and prompt engineering techniques.</p>
-        </div>
-      </div>
-
     </div>
 
-  </section>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">Aug 2025 &ndash; Sep 2025</span>
+        <h3>NLP Intern</h3>
+        <h4>Elevvo Pathways</h4>
+        <p>
+          Built NLP pipelines for text classification and Named Entity Recognition using
+          transformer-based models, fine-tuning architectures via Hugging Face and improving
+          evaluation performance by 10&ndash;15%. Applied structured prompting techniques to
+          improve LLM-generated responses.
+        </p>
+      </div>
+    </div>
 
-  <!-- ================= PROJECTS ================= -->
-  <section class="projects" id="projects">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">Jul 2025 &ndash; Sep 2025</span>
+        <h3>Junior AI/ML Developer</h3>
+        <h4>Code Generation</h4>
+        <p>
+          Developed AI-powered automation workflows using Python, machine learning models,
+          and LLM-based systems. Designed RAG pipelines with FAISS vector search and
+          embedding-based retrieval to optimize business workflows and information processing.
+        </p>
+      </div>
+    </div>
 
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">Jun 2025 &ndash; Aug 2025</span>
+        <h3>AI/ML Intern</h3>
+        <h4>Arch Technologies</h4>
+        <p>
+          Worked on AI research involving medical imaging: fine-tuned LLaMA-based models
+          using PEFT/LoRA, and developed computer vision pipelines using YOLO-based object
+          detection and Segment Anything Model (SAM) for image segmentation, along with
+          model evaluation and inference optimization.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">Jun 2024 &ndash; Sep 2024</span>
+        <h3>Front-End Developer Intern</h3>
+        <h4>TechNetCloud</h4>
+        <p>
+          Developed responsive web interfaces using React.js, JavaScript, and Bootstrap.
+          Improved frontend performance through component optimization, code splitting,
+          and reusable component design.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="projects" id="projects">
   <h2 class="heading">My <span>Projects</span></h2>
 
   <div class="project-flagship">
     <div class="flagship-text">
-
-      <span class="flagship-tag">Flagship Project</span>
-
-      <h3>Lightweight Adaptive Routing System for LLMs & AI Agents</h3>
-
+      <span class="flagship-tag">Featured Project</span>
+      <h3>Lightweight Adaptive Routing System for LLMs &amp; AI Agents</h3>
       <p>
-        Built an intelligent routing system that dynamically selects the most suitable
-        local LLM or AI agent based on query complexity. Designed for offline and edge
-        environments (8–16GB RAM), optimizing cost, latency, and performance.
-        The system includes explainable routing decisions and integrates RAG pipelines
-        for context-aware responses.
+        An intelligent AI orchestration framework that dynamically selects the most
+        suitable LLM or AI agent based on query complexity, quality, latency, and
+        computational cost. Supports lightweight local deployment, explainable routing
+        decisions, and RAG-based context-aware responses in an offline-first architecture.
       </p>
-
       <div class="project-tags">
-        <span>Python</span>
-        <span>LLMs</span>
-        <span>RAG</span>
-        <span>NLP</span>
-        <span>Explainable AI</span>
+        <span>Python</span><span>LLMs</span><span>RAG</span><span>NLP</span>
+        <span>AI Agents</span><span>Explainable AI</span>
       </div>
-
+      <div class="project-links">
+        <a href="https://github.com/Taqadus842/fyp" target="_blank" rel="noopener"><i class="bx bxl-github"></i> Code</a>
+      </div>
     </div>
   </div>
 
   <div class="projects-container">
 
-    <!-- Project 1 -->
+    <div class="project-box">
+      <h3>AI Resume Screener &amp; Feedback System</h3>
+      <p>
+        AI-powered ATS system that analyzes resumes against job descriptions using LLMs,
+        semantic search, embeddings, and vector databases. Generates personalized feedback
+        and skill-gap recommendations.
+      </p>
+      <div class="project-tags"><span>Python</span><span>LLMs</span><span>FAISS</span><span>NLP</span><span>RAG</span></div>
+      <div class="project-links">
+        <a href="https://github.com/Taqadus842/AI_Resume_Screener" target="_blank" rel="noopener"><i class="bx bxl-github"></i> Code</a>
+      </div>
+    </div>
+
+    <div class="project-box">
+      <h3>University Assistant — RAG-Based Q&amp;A System</h3>
+      <p>
+        AI assistant built using Retrieval-Augmented Generation over university documents.
+        Implements document ingestion, chunking, embeddings, vector search, and
+        grounded LLM responses to reduce hallucinations.
+      </p>
+      <div class="project-tags"><span>RAG</span><span>LangChain</span><span>FAISS</span><span>LLMs</span></div>
+      <div class="project-links">
+        <a href="https://github.com/Taqadus842/University-Assistant----RAG-Based-Q-A-System" target="_blank" rel="noopener"><i class="bx bxl-github"></i> Code</a>
+      </div>
+    </div>
+
+    <div class="project-box">
+      <h3>AI Email Manager &amp; Action Assistant</h3>
+      <p>
+        Automation system that classifies emails into Urgent, Important, Normal,
+        Promotional, and Spam using LLMs, then summarizes, prioritizes, and recommends
+        next actions via n8n workflows and API integrations.
+      </p>
+      <div class="project-tags"><span>n8n</span><span>LLMs</span><span>Automation</span><span>APIs</span></div>
+      <div class="project-links">
+        <a href="https://github.com/Taqadus842/AI-Automation" target="_blank" rel="noopener"><i class="bx bxl-github"></i> Code</a>
+      </div>
+    </div>
+
+    <div class="project-box">
+      <h3>Offline Voice AI Assistant</h3>
+      <p>
+        Privacy-focused offline voice assistant integrating Faster-Whisper speech
+        recognition, local LLM inference, and Meta MMS text-to-speech for real-time,
+        low-latency AI interaction with no cloud dependency.
+      </p>
+      <div class="project-tags"><span>Whisper</span><span>LLMs</span><span>TTS</span><span>Python</span></div>
+      <div class="project-links">
+        <a href="https://github.com/Taqadus842/Voice-AI-Assistant" target="_blank" rel="noopener"><i class="bx bxl-github"></i> Code</a>
+      </div>
+    </div>
+
     <div class="project-box">
       <h3>YOLO Tumor Detection System</h3>
       <p>
-        Computer vision pipeline for medical imaging using YOLO for detection
-        and SAM-based segmentation for precise tumor boundaries.
+        Medical computer vision pipeline using YOLO11 and SAM2 for tumor detection and
+        segmentation from medical images, with image preprocessing and augmentation to
+        improve robustness.
       </p>
-
-      <div class="project-tags">
-        <span>Python</span>
-        <span>YOLO11</span>
-        <span>SAM2</span>
-        <span>OpenCV</span>
-      </div>
-
+      <div class="project-tags"><span>YOLO11</span><span>SAM2</span><span>OpenCV</span><span>PyTorch</span></div>
       <div class="project-links">
-        <a href="https://github.com/your-repo" target="_blank">
-          <i class="bx bxl-github"></i> Code
-        </a>
+        <a href="https://github.com/Taqadus842/AI-ML/tree/main/Tumor%20Detection%20using%20YOLO11%20and%20SAM2" target="_blank" rel="noopener"><i class="bx bxl-github"></i> Code</a>
       </div>
     </div>
 
-    <!-- Project 2 -->
     <div class="project-box">
       <h3>Career Recommendation Chatbot</h3>
       <p>
-        NLP-based chatbot that suggests career paths using transformer models
-        and generative AI techniques for interactive guidance.
+        NLP chatbot using transformer models, intent classification, and Streamlit to
+        provide personalized career guidance and recommendations.
       </p>
-
-      <div class="project-tags">
-        <span>Python</span>
-        <span>Transformers</span>
-        <span>Streamlit</span>
-        <span>HuggingFace</span>
-      </div>
-
+      <div class="project-tags"><span>Transformers</span><span>HuggingFace</span><span>Streamlit</span><span>NLP</span></div>
       <div class="project-links">
-        <a href="https://github.com/your-repo" target="_blank">
-          <i class="bx bxl-github"></i> Code
-        </a>
-      </div>
-    </div>
-
-    <!-- Project 3 -->
-    <div class="project-box">
-      <h3>Ethereum Price Forecasting (ARIMA)</h3>
-      <p>
-        Time-series forecasting model to predict Ethereum price trends using
-        ARIMA with proper preprocessing and statistical validation.
-      </p>
-
-      <div class="project-tags">
-        <span>Python</span>
-        <span>ARIMA</span>
-        <span>Time Series</span>
-        <span>Pandas</span>
-      </div>
-
-      <div class="project-links">
-        <a href="https://github.com/your-repo" target="_blank">
-          <i class="bx bxl-github"></i> Code
-        </a>
-      </div>
-    </div>
-
-    <!-- Project 4 -->
-    <div class="project-box">
-      <h3>Financial Data Processor</h3>
-      <p>
-        Data engineering tool for cleaning, transforming, and structuring raw
-        financial datasets for analytics and modeling.
-      </p>
-
-      <div class="project-tags">
-        <span>Python</span>
-        <span>Pandas</span>
-        <span>Data Engineering</span>
-      </div>
-
-      <div class="project-links">
-        <a href="https://github.com/your-repo" target="_blank">
-          <i class="bx bxl-github"></i> Code
-        </a>
+        <a href="https://github.com/Taqadus842/AI-ML/tree/main/career_chatbot_project" target="_blank" rel="noopener"><i class="bx bxl-github"></i> Code</a>
       </div>
     </div>
 
   </div>
-
 </section>
 
-  <!-- ================= SKILLS ================= -->
-  <section class="skills" id="skills">
+<!-- ================= SKILLS ================= -->
+<section class="skills" id="skills">
+  <h2 class="heading">My <span>Skills</span></h2>
 
-    <h2 class="heading">My <span>Skills</span></h2>
+  <div class="skills-container">
+    <div class="skills-box">
+      <h3>Artificial Intelligence &amp; Machine Learning</h3>
+      <p>Python, PyTorch, TensorFlow, Scikit-learn, Deep Learning, Neural Networks, Model Evaluation, Feature Engineering, XGBoost, LightGBM</p>
+    </div>
+    <div class="skills-box">
+      <h3>Generative AI &amp; LLMs</h3>
+      <p>Large Language Models, Prompt Engineering, RAG, AI Agents, Agentic AI, MCP, PEFT, LoRA, QLoRA, Fine-Tuning, Embeddings, LLM Orchestration</p>
+    </div>
+    <div class="skills-box">
+      <h3>NLP &amp; Computer Vision</h3>
+      <p>Transformers, Hugging Face, Text Classification, NER, OpenCV, YOLO, SAM/SAM2, Image Segmentation, Object Detection</p>
+    </div>
+    <div class="skills-box">
+      <h3>AI Frameworks &amp; Tools</h3>
+      <p>LangChain, LlamaIndex, Ollama, OpenAI API, Gemini API, Anthropic Claude API, FAISS, ChromaDB, Pinecone, n8n Automation</p>
+    </div>
+    <div class="skills-box">
+      <h3>Backend &amp; Development</h3>
+      <p>FastAPI, Flask, Django, Streamlit, React.js, Node.js, REST APIs, OAuth/JWT Authentication, Git, GitHub, Docker</p>
+    </div>
+    <div class="skills-box">
+      <h3>Programming Languages</h3>
+      <p>Python, C++, C, JavaScript, SQL, Bash, Linux</p>
+    </div>
+  </div>
+</section>
 
-    <div class="skills-container">
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
 
-      <div class="skills-box">
-        <h3>AI & ML</h3>
-        <p>Python, PyTorch, TensorFlow, LLMs, RAG</p>
-      </div>
+  <div class="contact-direct">
+    <a href="mailto:umetaqadus@gmail.com"><i class='bx bx-envelope'></i> umetaqadus@gmail.com</a>
+    <a href="tel:+923453120943"><i class='bx bx-phone'></i> 0345-3120943</a>
+  </div>
 
-      <div class="skills-box">
-        <h3>Web Development</h3>
-        <p>React, Django, Node.js</p>
-      </div>
-
-      <div class="skills-box">
-        <h3>Data & Tools</h3>
-        <p>SQL, Firebase, Power BI</p>
-      </div>
-
-      <div class="skills-box">
-        <h3>Languages</h3>
-        <p>Python, C++, JavaScript</p>
-      </div>
-
+  <form id="contact-form" novalidate>
+    <div class="input-box">
+      <input type="text" name="name" id="name" placeholder="Full Name" required>
+      <input type="email" name="email" id="email" placeholder="Email Address" required>
     </div>
 
-  </section>
-
-  <!-- ================= CONTACT ================= -->
-  <section class="contact" id="contact">
-
-    <h2 class="heading">Contact <span>Me</span></h2>
-
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-
-      <div class="input-box">
-        <input type="text" name="name" placeholder="Full Name" required />
-        <input type="email" name="email" placeholder="Email Address" required />
-      </div>
-
-      <div class="input-box">
-        <input type="text" name="subject" placeholder="Subject" />
-        <input type="tel" name="phone" placeholder="Phone Number" />
-      </div>
-
-      <textarea name="message" placeholder="Your Message" required></textarea>
-
-      <input type="submit" class="btn" value="Send Message" />
-
-    </form>
-
-  </section>
-
-  <!-- ================= FOOTER ================= -->
-  <footer class="footer">
-
-    <div class="social">
-      <a href="https://www.linkedin.com/in/umetaqadus/" target="_blank" aria-label="LinkedIn">
-        <i class="bx bxl-linkedin-square"></i>
-      </a>
-
-      <a href="https://github.com/Taqadus842" target="_blank" aria-label="GitHub">
-        <i class="bx bxl-github"></i>
-      </a>
+    <div class="input-box">
+      <input type="text" name="subject" id="subject" placeholder="Subject">
+      <input type="tel" name="phone" id="phone" placeholder="Phone Number">
     </div>
 
-    <p>&copy; 2026 Ume Taqadus. All Rights Reserved.</p>
+    <textarea name="message" id="message" placeholder="Your Message" required></textarea>
 
-  </footer>
+    <input type="submit" class="btn" value="Send Message">
+    <p class="form-note" id="form-note"></p>
+  </form>
+</section>
 
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <script src="script.js"></script>
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="social">
+    <a href="https://www.linkedin.com/in/umetaqadus/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bx bxl-linkedin-square"></i></a>
+    <a href="https://github.com/Taqadus842" target="_blank" rel="noopener" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+  </div>
+  <p>&copy; 2026 Ume Taqadus. All Rights Reserved.</p>
+</footer>
 
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="script.js"></script>
 </body>
-
 </html>
